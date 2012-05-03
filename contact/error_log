@@ -1,0 +1,8 @@
+[18-Apr-2012 13:58:55] PHP Warning:  fopen(to_you_header.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 33
+[18-Apr-2012 13:58:55] PHP Warning:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for to_you_header.txt in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 34
+[18-Apr-2012 13:58:55] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 34
+[18-Apr-2012 13:58:55] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 35
+[18-Apr-2012 13:58:55] PHP Warning:  fopen(to_you_footer.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 38
+[18-Apr-2012 13:58:55] PHP Warning:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for to_you_footer.txt in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 39
+[18-Apr-2012 13:58:55] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 39
+[18-Apr-2012 13:58:55] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/erfmark/public_html/eventswithamore.com/contact/form.php on line 40
