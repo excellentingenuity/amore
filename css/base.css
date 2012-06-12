@@ -1,41 +1,107 @@
 @charset "utf-8";
 /* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+
 body {
-	background-image:url(../img/back.png);	
+	background-image:url(../img/background.png);
+	background-repeat:repeat-x;	
+	font-family: 'Oleo Script', cursive;
+	font-size:14px;
 }
 #logo {
-	height:125px;
-	width:225px;
+	padding-top:.5em;	
 }
-.navbar-inner {
-	background-color:#422771 !important;
+#navbar-inner {
+	font-size:16px;	
 }
-#main_content_cols_first {
-	font-size:15px;
-	margin-left:5px;	
-	margin-right:20px;
-	padding-right:10px;
-	text-align:justify;
+#front-page-content-row {
+	color:#FFFFFF;
+	background-color:#550044;
+	border-radius:5px;
+	border:thick solid #7A697E;
+	font-size:18px;
+	margin-bottom:1em;
+	max-width:99%;
 }
-#main_content_cols {
-	font-size:15px;	
-	margin-right:10px;
-	padding-right:10px;
-	margin-left:0px;
-	text-align:justify;
+.main_content_cols {
+	padding:.5em;
+
 }
-#main_content_cols_last {
-	font-size:15px;	
-	margin-right:0px;
-	padding-right:0px;
-	margin-left:0px;
-	padding-left:5px;
-	text-align:justify;
+.image-menu {
+	border-radius:5px;
+	border:thick solid #550044;
 }
-#contact_block_logo {
-	height:175px;
-	width:249px;	
+.footer {
+	text-align:center;
 }
-#small {
-	color:#333333;
+.footer-link {
+	color:#FFFFFF;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.footer-link:hover {
+	text-decoration:none;
+	font-weight:500;
+	color:#FFFFFF;
+}
+.footer-link:visited {
+	color:#FFFFFF;
+}
+/*about page */
+.about-header {
+	color:#FFFFFF;
+	text-align:center;
+}	
+.small-header {
+	color:#550044;	
+}
+.contact-block {
+	text-align:center;
+	pading-top:.5em;
+	color:#FFFFFF;
+	border-radius:5px;
+	border:thick solid #550044;
+	padding-bottom:.5em;
+}
+.small-text {
+	color:#550044;	
+}
+.contact-block-logo {
+	margin-top:.5em;
+}
+.content-box {
+	color:#FFFFFF;
+	background-color:#550044;
+	border-radius:5px;
+	border:thick solid #7A697E;
+	font-size:18px;
+	padding:.5em;
+	margin-bottom:1em;
+}
+.content-link {
+	color:#7A697E;
+}
+.content-link:hover {
+	text-decoration:none;
+	font-weight:500;
+	color:#7A697E;
+}
+.content-link:visited {
+	color:#7A697E;
+}
+.contact-block-hr {
+	background:#550044;
+	color:#550044;
+	height:2px;
+	border:0px;
+}
+.content-image {
+	border-radius:5px;
+	border:thick solid #FFFFFF;
+	margin:.5em;
+}
+/*packages*/
+.p-header {
+	text-align:center;
+	color:#FFFFFF;
+	font-size:18px;
 }

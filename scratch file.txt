@@ -1,0 +1,12 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="span5 pull-right"><span class="hidden-phone"><div class="fb-activity"  data-app-id="187330508038338" data-width="700" data-height="120" data-header="false" data-linktarget="_parent" data-border-color="none" data-font="arial" data-recommendations="false"></div>
+
+<!-- site info data-site="eventswithamore.com" -->

@@ -1,0 +1,8 @@
+	<div class="span8 pull-right">
+    	<span class="hidden-phone"><br />
+        	<h3>People Are Talking</h3>
+            <blockquote>
+			<script type="text/javascript" src="../js/rand.js"></script>
+            </blockquote><br />
+		</span>
+    </div>
