@@ -19,7 +19,8 @@ body {
 	background-color:#550044;
 	border-radius:5px;
 	border:thick solid #7A697E;
-	font-size:18px;
+	font-size:22px;
+	line-height:1em;
 	margin-bottom:1em;
 	max-width:99%;
 }
@@ -104,4 +105,27 @@ body {
 	text-align:center;
 	color:#FFFFFF;
 	font-size:18px;
+}
+/*corporate events*/
+.slider-image {
+	text-align:center;
+	color:#FFFFFF;
+	border-radius:5px;
+	border:thick solid #550044;
+	padding:0px;
+	max-height:30em;
+	margin-bottom:1em;
+}
+.carousel-inner {
+	padding-bottom:0px;
+	max-height:29.2em;
+}
+#corporate-content {
+	font-size:1.8em;
+	line-height:1em;
+}
+/*Social events*/
+#event-image {
+	max-width:45%;
+	margin-bottom:10px;
 }
