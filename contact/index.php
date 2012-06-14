@@ -9,35 +9,35 @@
 
     <!-- Le styles -->
     <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 5px;
-        padding-bottom: 40px;
-      }
-    </style>
-    
+    <link href="../css/base.css" media="all" rel="stylesheet">
+    <link href="../css/mobile.css" media="screen and handheld and (max-width: 900px)" rel="stylesheet">
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="http://www.eventswithamore.com/amore.png">
+    <link rel="shortcut icon" href="img/amore.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/amore.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/amore.png">
+    <link rel="apple-touch-icon-precomposed" href="img/amore.png"> 
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
   </head>
 
-<body class="container-fluid">
-<div class="row-fluid">    
-<div class="span4"><center><img src="/../img/ewa.png"></center></div>
-<div class="span8 pull-right"><span class="hidden-phone"><br /><h3>People Are Talking</h3><blockquote><script type="text/javascript" src="../js/rand.js"></blockquote><br />
-</script></span></div>
-</div>
+<body>
+	<div class="container-fluid">
+		<div class="row-fluid">
+        	   <img class="span3 pull-left" id="logo" src="../img/logo.png" />    
+		</div>
 
 <div class="navbar">
   <div class="navbar-inner">
-    <div class="container">
+   
   <span class="visible-desktop">
 <ul class="nav">
 <li><a href="/"><i class="icon-home icon-white"></i> Home</a></li>
@@ -160,7 +160,7 @@
       <p>Feel free to use the form on the left, give us a call, or talk to us at any of our events! We would love to chat!</p>
       <ul class="unstyled">
         <li><h3> Phone: (864) 434-9006</h3></li>
-        <li><h3> Email: <a href="mailto:info@eventswithamore.com">info@eventswithamore.com</a></h3</li>
+        <li><h3> Email: <a href="mailto:info@eventswithamore.com">info@eventswithamore.com</a></h3></li>
 </ul>
 </div>
 </div>
