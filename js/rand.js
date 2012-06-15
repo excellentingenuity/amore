@@ -2,4 +2,3 @@ var mess = new Array('“Maria is one of the best people I have worked with. She
 var max = mess.length;
 var num = Math.floor((Math.random() * max));
 document.writeln(mess[num]);
-                    

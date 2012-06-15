@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Cagliostro);
 
 body {
 	background-image:url(../img/background.png);
 	background-repeat:repeat-x;	
-	font-family: 'Oleo Script', cursive;
+	font-family: 'Cagliostro', sans-serif;
 	font-size:14px;
 }
 #logo {
@@ -129,3 +129,41 @@ body {
 	max-width:45%;
 	margin-bottom:10px;
 }
+/*contact page*/
+#contact-page-block {
+	font-size:1.8em;
+	line-height:1em;
+	text-align:center;
+	padding:.5em;
+}
+.contact-form {
+	font-size:1.3em;
+	color:#FFFFF;
+	border-radius:5px;
+	border:thick solid #550044;
+	margin-bottom:1em;
+	padding-right:1em;
+
+}
+.control-group {
+	color:#FFFFFF;
+	margin-left:.5em;
+}
+.form-actions {
+	background-image:none;
+	background:none;
+	text-align:center;
+}
+.contact-ul {
+	list-style:none;
+}
+.header-comments {
+	color:#7A697E;
+	text-align:left;
+}
+.comments-header {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+input[type=text] { width: 100%; box-sizing: border-box; height: 28px; }
+textarea[type=text] { width: 80%; box-sizing: border-box; height: 56px; }
