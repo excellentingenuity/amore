@@ -101,7 +101,7 @@
               <li class="divider-vertical"></li>
               <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
               <li class="divider-vertical"></li>
-              <li class="active"><a href="/contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+              <li class="active"><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
               <li class="divider-vertical"></li>
               <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
               <li class="divider-vertical"></li>
@@ -135,7 +135,7 @@
               <li class="divider-horizontal"></li>
               <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
               <li class="divider-horizontal"></li>
-              <li class="active"><a href="/contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+              <li class="active"><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
               <li class="divider-vertical"></li>
               <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
               <li class="divider-vertical"></li>

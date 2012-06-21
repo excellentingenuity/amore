@@ -67,7 +67,7 @@ body {
 	color:#550044;	
 }
 .contact-block-logo {
-	margin-top:.5em;
+	margin-top:0px;
 }
 .content-box {
 	color:#FFFFFF;
@@ -94,6 +94,8 @@ body {
 	color:#550044;
 	height:2px;
 	border:0px;
+	margin-top:0px;
+	pading-top:0px;
 }
 .content-image {
 	border-radius:5px;
