@@ -12,6 +12,7 @@
 					<li>Name: ".$_POST['name']."</li>
 					<li>Email: ".$_POST['email']."</li>
 					<li>Phone: ".$_POST['phone']."</li>
+					<li>Where did you hear about us?:".$_POST['source']."</li>
 					<li>Message: ".$_POST['message']."</li>
 				</ul>
 			</body>
@@ -43,6 +44,7 @@
     <!-- Le styles -->
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/jquery.neosmart.fb.wall.css" rel="stylesheet">
     <link href="../css/base.css" media="all" rel="stylesheet">
     <link href="../css/mobile.css" media="screen and handheld and (max-width: 900px)" rel="stylesheet">
 
@@ -65,23 +67,20 @@
     <script src="../js/bootstrap-transition.js"></script>
     <script src="../js/bootstrap-alert.js"></script>
     <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/jquery.neosmart.fb.wall.js"></script>
   </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 	<div class="container-fluid">
 		<div class="row-fluid">
-        	   <img class="span3 pull-left" id="logo" src="../img/logo.png" />
-                <div class="span3">
-                    <div class="fb-activity hidden-phone" data-site="www.eventswithamore.com" data-width="300" data-height="100" data-header="false" data-border-color="#7A697E" data-font="segoe ui" data-recommendations="true"></div>
-                </div>
+        	   <a href="../index.html"><img class="span3 pull-left" id="logo" src="../img/logo.png" /></a>
+                    	<div class="fb hidden-phone span3" id="fb"></div>
+        <script type="text/javascript">
+		$(function(){
+			$('#fb').fbWall({ id:'187330508038338',accessToken:'389492967764617|f17df5409317be734caabfbd0acbe298',showGuestEntries:true,showComments:true,max:1,timeConversion:12});
+		});
+	</script>
                 <div class="span6 header-comments hidden-phone">
                     
                         <h3 class="comments-header">People Are Talking</h3>
@@ -97,53 +96,53 @@
    
  			 <span class="visible-desktop">
             <ul class="nav">
-            <li><a href="../"><i class="icon-home icon-white"></i> Home</a></li>
+            <li><a href="../"> Home</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
+              <li><a href="../about"> About</a></li>
               <li class="divider-vertical"></li>
-              <li class="active"><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+              <li class="active"><a href="../contact"> Contact</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+              <li><a href="../packages"> Packages</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+              <li><a href="../social"> Social Events</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+              <li><a href="../corporate"> Corporate Events</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+              <li><a href="../weddings"> Weddings</a></li>
             </ul>
             </span>
             <span class="visible-tablet">
             <ul class="nav">
-            <li><a href="../"><i class="icon-home icon-white"></i> Home</a></li>
+            <li><a href="../"> Home</a></li>
               <li class="divider-horizontal"></li>
-              <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
+              <li><a href="../about"> About</a></li>
               <li class="divider-horizontal"></li>
-              <li class="active"><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+              <li class="active"><a href="../contact"> Contact</a></li>
               <li class="divider-horizontal"></li>
-              <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+              <li><a href="../packages"> Packages</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+              <li><a href="../social"> Social Events</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+              <li><a href="../corporate"> Corporate Events</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+              <li><a href="../weddings"> Weddings</a></li>
             </ul>
             </span>
             <span class="visible-phone">
             <ul class="nav">
-            <li><a href="../"><i class="icon-home icon-white"></i> Home</a></li>
+            <li><a href="../"> Home</a></li>
               <li class="divider-horizontal"></li>
-              <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
+              <li><a href="../about"> About</a></li>
               <li class="divider-horizontal"></li>
-              <li class="active"><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+              <li class="active"><a href="../contact"> Contact</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+              <li><a href="../packages"> Packages</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+              <li><a href="../social"> Social Events</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+              <li><a href="../corporate"> Corporate Events</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="../weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+              <li><a href="../weddings"> Weddings</a></li>
             </ul>
             </span>
         </div>
@@ -179,7 +178,7 @@
                 
                 </p>
                 <div class="my_contact">
-                <form id="contact_form" class="form-verical" method="post" action="about.php?action=send"> <!--/caesars/ -->
+                <form id="contact_form" class="form-verical" method="post" action="index.php?action=send"> 
                     <fieldset>
                         <legend class="about-header" id="contact_form_para">Contact Us <br />
                         <small class="small-text" id="contact_small">All fields are Required</small>
@@ -203,6 +202,12 @@
                             </div>
                         </div>
                         <div class="control-group">
+                            <label class="control-label" for="source">Where did you hear about us?:</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" name="source" id="source" />
+                        </div>
+                        </div>
+                        <div class="control-group">
                             <label class="control-label" for="message">Message:</label>
                             <div class="controls">
                                 <textarea type="text" class="input-xlarge" name="message" id="message" rows="7"></textarea>
@@ -218,11 +223,19 @@
                 </div>
          
             <div class="span4 contact-block" id="contact-page-block">
-            <h2 class="about-header">Contacting Events with Amore</h2>
-                <p>Feel free to use the form on the left, give us a call, or talk to us at any of our events! We would love to chat!</p>
+            <h2 class="about-header">Contacting Events with Amore</h2><br />
+                <!--<p>Feel free to use the form on the left, give us a call, or talk to us at any of our events! We would love to chat!</p>-->
+                <ul class="contact-ul">
+                	<li>Fill out the From</li>
+                    <li>Give us a call</li>
+                    <li>Send us an e-mail</li>
+                    <li>Message us on Facebook</li>
+                    <br />
+                    <li>We can't wait to help you plan a memorable event.</li>
+                </ul>
                 <ul class="contact-ul">
                     <li> Phone: (864) 434-9006</li><br />
-                    <li><a class="btn btn-primary" href="mailto:info@eventswithamore.com"><i class="icon-envelope icon-white"></i>Email Us</a></li>
+                    <li><a class="btn btn-primary" href="mailto:info@eventswithamore.com">Email Us</a></li>
                 </ul>
 			</div>
 		</div>

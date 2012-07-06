@@ -10,6 +10,7 @@
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/jquery.neosmart.fb.wall.css" rel="stylesheet">
     <link href="css/base.css" media="all" rel="stylesheet">
     <link href="css/mobile.css" media="screen and (max-width: 960px)" rel="stylesheet">
 
@@ -26,25 +27,24 @@
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
+    <script src="js/jquery.neosmart.fb.wall.js"></script>
     
   </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="container-fluid">
     <div class="row-fluid">    
     
-    <img class="span3 pull-left" id="logo" src="img/logo.png" />
-    <div class="span3">
-    	<div class="fb-activity hidden-phone" data-site="www.eventswithamore.com" data-width="300" data-height="100" data-header="false" data-border-color="#7A697E" data-font="segoe ui" data-recommendations="true"></div>
-    </div>
+    <a href="index.html"><img class="span3 pull-left" id="logo" src="img/logo.png" /></a>
+    
+    	<div class="fb hidden-phone span3" id="fb"></div>
+        <script type="text/javascript">
+		$(function(){
+			$('#fb').fbWall({ id:'187330508038338',accessToken:'389492967764617|f17df5409317be734caabfbd0acbe298',showGuestEntries:true,showComments:true,max:1,timeConversion:12});
+		});
+	</script>
+    
     <div class="span6 header-comments hidden-phone">
     	
         	<h3 class="comments-header">People Are Talking</h3>
@@ -60,53 +60,53 @@
         
             <span class="visible-desktop">
                 <ul class="nav">
-                    <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+                    <li class="active"><a href="#"> Home</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="about"><i class="icon-info-sign icon-white"></i> About</a></li>
+                    <li><a href="about"> About</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+                    <li><a href="contact"> Contact</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+                    <li><a href="packages"> Packages</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+                    <li><a href="social"> Social Events</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+                    <li><a href="corporate"> Corporate Events</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+                    <li><a href="weddings"> Weddings</a></li>
                   </ul>
             </span>
             <span class="visible-tablet">
                 <ul class="nav">
-                  <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+                  <li class="active"><a href="#"> Home</a></li>
                   <li class="divider-horizontal"></li>
-                  <li><a href="about"><i class="icon-info-sign icon-white"></i> About</a></li>
+                  <li><a href="about"> About</a></li>
                   <li class="divider-horizontal"></li>
-                  <li><a href="contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+                  <li><a href="contact"> Contact</a></li>
                   <li class="divider-horizontal"></li>
-                  <li><a href="packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+                  <li><a href="packages"> Packages</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+                  <li><a href="social"> Social Events</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+                  <li><a href="corporate"> Corporate Events</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+                  <li><a href="weddings"> Weddings</a></li>
                 </ul>
             </span>
             <span class="visible-phone">
                 <ul class="nav">
-                  <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+                  <li class="active"><a href="#"> Home</a></li>
                   <li class="divider-horizontal"></li>
-                  <li><a href="about"><i class="icon-info-sign icon-white"></i> About</a></li>
+                  <li><a href="about"> About</a></li>
                   <li class="divider-horizontal"></li>
-                  <li><a href="contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+                  <li><a href="contact"> Contact</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+                  <li><a href="packages"> Packages</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+                  <li><a href="social"> Social Events</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+                  <li><a href="corporate"> Corporate Events</a></li>
                   <li class="divider-vertical"></li>
-                  <li><a href="weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+                  <li><a href="weddings"> Weddings</a></li>
                 </ul>
             </span>
         </div>
@@ -115,21 +115,11 @@
 
 <div class="container-fluid">
 	<div class="row-fluid" id="front-page-content-row">
-    	<div class="span4">
+    	<div class="span12">
+        	<h1 class="about-header">Memorable events start here</h1>
         	<p class="main_content_cols cols_first">
-            	When you’re putting together that once-in-a-lifetime event, do you choose a planner based on experience . . . or passion?<br /><br />
-                Of course you want someone who’s cool under pressure and ready to handle any crisis. But that’s only part of it.<br />
-            </p>
-        </div>
-        <div class="span4">
-            <p class="main_content_cols">
-            	You also want a planner who understands the butterflies in your stomach. Someone who will hold your hand each step of the way. Someone who shares your vision and your excitement.<br /><br />
-                In other words, you want someone <em>who cares as much as you do</em>.<br />
-            </p>
-         </div>
-         <div class="span4">
-            <p class="main_content_cols cols_last">
-				A planning partner who puts her head <em>and</em> her heart into every detail?<br /><br />
+            	When you are putting together that special event, how do you choose your planner?  You need both experience and enthusiasm.  Of course you want someone who is cool under pressure, can handle any obstacle, and can get the job done.  You also want a planner who understands the butterflies in your stomach and the expectations for a great event.  You want someone who will walk you through the planning process and who will carry out your vision.<br /><br />
+                In other words, you want someone who cares as much as you do with the same level of excitement.  Events with Amore will be the planning partner who will put head and heart into every detail and every event.<br /><br />
 				<b>That’s Amore.</b>
             </p>
         </div>

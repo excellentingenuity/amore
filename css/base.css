@@ -3,23 +3,27 @@
 @import url(http://fonts.googleapis.com/css?family=Cagliostro);
 
 body {
-	background-image:url(../img/background.png);
-	background-repeat:repeat-x;	
+	/*background-image:url(../img/background.png);
+	background-repeat:repeat-x;	*/
+	background-color:#DEDBCC;
 	font-family: 'Cagliostro', sans-serif;
-	font-size:14px;
+	font-size:12px;
 }
 #logo {
 	padding-top:.5em;	
 }
-#navbar-inner {
-	font-size:16px;	
+ul.nav {
+	font-size:1.2em;
+}
+.fb {
+	background:none;
 }
 #front-page-content-row {
 	color:#FFFFFF;
 	background-color:#550044;
 	border-radius:5px;
 	border:thick solid #7A697E;
-	font-size:22px;
+	font-size:1.5em;
 	line-height:1em;
 	margin-bottom:1em;
 	max-width:99%;
@@ -117,15 +121,26 @@ body {
 	padding:0px;
 	max-height:30em;
 	margin-bottom:1em;
+	overflow:hidden;
 }
+
 .carousel-inner {
-	padding-bottom:0px;
-	max-height:29.2em;
+	padding:0px;
+	max-height:30em;
+}
+.carousle-inner >.item {
+	max-height:30em;
+}
+.slide_image {
+	height:100%
+	max-height:30em;
+	overflow:hidden;
 }
 #corporate-content {
-	font-size:1.8em;
+	font-size:1.6em;
 	line-height:1em;
 }
+
 /*Social events*/
 #event-image {
 	max-width:45%;
@@ -137,6 +152,7 @@ body {
 	line-height:1em;
 	text-align:center;
 	padding:.5em;
+	color:#550044;
 }
 .contact-form {
 	font-size:1.3em;
@@ -169,3 +185,4 @@ body {
 }
 input[type=text] { width: 100%; box-sizing: border-box; height: 28px; }
 textarea[type=text] { width: 80%; box-sizing: border-box; height: 56px; }
+

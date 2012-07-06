@@ -10,6 +10,7 @@
     <!-- Le styles -->
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../css/jquery.neosmart.fb.wall.css" rel="stylesheet">
     <link href="../css/base.css" media="all" rel="stylesheet">
     <link href="../css/mobile.css" media="screen and handheld and (max-width: 900px)" rel="stylesheet">
 
@@ -26,23 +27,20 @@
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery.neosmart.fb.wall.js"></script>
   </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+	
 	<div class="container-fluid">
 		<div class="row-fluid">
-        	   <img class="span3 pull-left" id="logo" src="../img/logo.png" />
-    <div class="span3">
-    	<div class="fb-activity hidden-phone" data-site="www.eventswithamore.com" data-width="300" data-height="100" data-header="false" data-border-color="#7A697E" data-font="segoe ui" data-recommendations="true"></div>
-    </div>
+        	   <a href="../index.html"><img class="span3 pull-left" id="logo" src="../img/logo.png" /></a>
+        	<div class="fb hidden-phone span3" id="fb"></div>
+        <script type="text/javascript">
+		$(function(){
+			$('#fb').fbWall({ id:'187330508038338',accessToken:'389492967764617|f17df5409317be734caabfbd0acbe298',showGuestEntries:true,showComments:true,max:1,timeConversion:12});
+		});
+	</script>
     <div class="span6 header-comments hidden-phone">
     	
         	<h3 class="comments-header">People Are Talking</h3>
@@ -57,53 +55,53 @@
           <div class="navbar-inner">
           <span class="visible-desktop">
         <ul class="nav">
-        <li><a href="../"><i class="icon-home icon-white"></i> Home</a></li>
+        <li><a href="../"> Home</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
+          <li><a href="../about"> About</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+          <li><a href="../contact"> Contact</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+          <li><a href="../packages"> Packages</a></li>
           <li class="divider-vertical"></li>
-          <li class="active"><a href="../social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+          <li class="active"><a href="../social"> Social Events</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+          <li><a href="../corporate"> Corporate Events</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+          <li><a href="../weddings"> Weddings</a></li>
         </ul>
         </span>
         <span class="visible-tablet">
         <ul class="nav">
-        <li><a href="../"><i class="icon-home icon-white"></i> Home</a></li>
+        <li><a href="../"> Home</a></li>
           <li class="divider-horizontal"></li>
-          <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
+          <li><a href="../about"> About</a></li>
           <li class="divider-horizontal"></li>
-          <li><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+          <li><a href="../contact"> Contact</a></li>
           <li class="divider-horizontal"></li>
-          <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+          <li><a href="../packages"> Packages</a></li>
           <li class="divider-horizontal"></li>
-          <li class="active"><a href="../social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+          <li class="active"><a href="../social"> Social Events</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+          <li><a href="../corporate"> Corporate Events</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+          <li><a href="../weddings"> Weddings</a></li>
         </ul>
         </span>
         <span class="visible-phone">
         <ul class="nav">
-        <li><a href="../"><i class="icon-home icon-white"></i> Home</a></li>
+        <li><a href="../"> Home</a></li>
           <li class="divider-horizontal"></li>
-          <li><a href="../about"><i class="icon-info-sign icon-white"></i> About</a></li>
+          <li><a href="../about"> About</a></li>
           <li class="divider-horizontal"></li>
-          <li><a href="../contact"><i class="icon-envelope icon-white"></i> Contact</a></li>
+          <li><a href="../contact"> Contact</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../packages"><i class="icon-list-alt icon-white"></i> Packages</a></li>
+          <li><a href="../packages"> Packages</a></li>
           <li class="divider-horizontal"></li>
-          <li class="active"><a href="../social"><i class="icon-glass icon-white"></i> Social Events</a></li>
+          <li class="active"><a href="../social"> Social Events</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../corporate"><i class="icon-star-empty icon-white"></i> Corporate Events</a></li>
+          <li><a href="../corporate"> Corporate Events</a></li>
           <li class="divider-vertical"></li>
-          <li><a href="../weddings"><i class="icon-heart icon-white"></i> Weddings</a></li>
+          <li><a href="../weddings"> Weddings</a></li>
         </ul>
         </span>
     </div>
@@ -117,7 +115,7 @@
     <div class="row-fluid">
       <div class="span6 content-box" id="corporate-content">
      	<h1 class="about-header">Birthdays</h1><br />
-     	<h2 class="about-header">All kids love them.</h2><img class="content-image pull-left" id="event-image" src="../img/birthday-bottom2.jpg">
+     	<h2 class="about-header">All kids love them.</h2><img class="content-image pull-right" id="event-image" src="../img/birthday-bottom2.jpg">
   		<br />
   		<p>But no matter what the age, everyone deserves a birthday that’s memorable and fun. For a birthday party with more “wow” and less worry, call Events with Amore. We’ll take care of venue, food, entertainment, decorations and more. All you have to do is sing “Happy Birthday” – and maybe shout “Surprise!” and you can still get your wish for a perfect party.</p>
       </div>
