@@ -8,6 +8,7 @@ body {
 	background-color:#DEDBCC;
 	font-family: 'Cagliostro', sans-serif;
 	font-size:12px;
+	text-align:justify;
 }
 #logo {
 	padding-top:.5em;	
@@ -52,6 +53,17 @@ ul.nav {
 	color:#FFFFFF;
 }
 /*about page */
+.about-link {
+    color:#550044;
+}
+.about-link:hover {
+    text-decoration:none;
+   
+    color:#550044;
+}
+.about-link:visited {
+    color:#550044;
+}
 .about-header {
 	color:#FFFFFF;
 	text-align:center;
@@ -83,15 +95,15 @@ ul.nav {
 	margin-bottom:1em;
 }
 .content-link {
-	color:#7A697E;
+	color:#CDC9E8;
 }
 .content-link:hover {
 	text-decoration:none;
 	font-weight:500;
-	color:#7A697E;
+	color:#CDC9E8;
 }
 .content-link:visited {
-	color:#7A697E;
+	color:#CDC9E8;
 }
 .contact-block-hr {
 	background:#550044;

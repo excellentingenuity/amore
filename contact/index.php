@@ -165,7 +165,7 @@
 	<div class="container-fluid">
  		<div class="row-fluid">
   			<div class="page-header">
-    			<h1 class="about-header">Contact Us<br /><small class="small-header">Email. Phone. In Person.</small></h1>
+    			<h1 class="about-header">Contact Us<br /><!--<small class="small-header">Email. Phone. In Person.</small>--></h1>
   			</div>
         </div>
 		<div class="row-fluid">
@@ -223,7 +223,7 @@
                 </div>
          
             <div class="span4 contact-block" id="contact-page-block">
-            <h2 class="about-header">Contacting Events with Amore</h2><br />
+            <h2 class="about-header">Contacting<br /> Events with Amore</h2><br />
                 <!--<p>Feel free to use the form on the left, give us a call, or talk to us at any of our events! We would love to chat!</p>-->
                 <ul class="contact-ul">
                 	<li>Fill out the From</li>
@@ -234,16 +234,17 @@
                     <li>We can't wait to help you plan a memorable event.</li>
                 </ul>
                 <ul class="contact-ul">
-                    <li> Phone: (864) 434-9006</li><br />
+                    <li>(864) 434-9006</li><br />
                     <li><a class="btn btn-primary" href="mailto:info@eventswithamore.com">Email Us</a></li>
                 </ul>
 			</div>
 		</div>
 
 
-      <footer>
-        <center><p>&copy; 2012 Events With Amore - <a class="footer-link" href="http://www.erfmarketing.com">ERF</a></p></center>
-      </footer>
+  <footer class="footer">
+   <p>&copy; 2012 Events With Amore - <a class="footer-link" href="http://www.erfmarketing.com">ERF</a></p>
+   <p>Phone: (864)434-9006 - Email: <a class="footer-link" href="mailto:info@eventswithamore.com">info@eventswithamore.com</a></p>
+  </footer>
 
     </div> <!-- /container -->
   </body>
