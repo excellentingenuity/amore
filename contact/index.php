@@ -68,10 +68,20 @@
     <script src="../js/bootstrap-alert.js"></script>
     <script src="../js/bootstrap-modal.js"></script>
     <script src="../js/jquery.neosmart.fb.wall.js"></script>
+    
+    <!--Place any additional meta tags here and also google analytics -->
+    
   </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=389492967764617";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="container-fluid">
 		<div class="row-fluid">
         	   <a href="../index.html"><img class="span3 pull-left" id="logo" src="../img/logo.png" /></a>
@@ -88,7 +98,10 @@
                         <script type="text/javascript" src="../js/rand.js"></script>
                         </blockquote>
                     
-                </div>    
+                </div>   
+                    <div class="span2 pull-right fblike">
+    	<div class="fb-like" data-href="http://www.eventswithamore.com" data-send="false" data-width="350" data-show-faces="false"></div>
+    </div> 
 		</div>
 
         <div class="navbar">
@@ -109,6 +122,8 @@
               <li><a href="../corporate"> Corporate Events</a></li>
               <li class="divider-vertical"></li>
               <li><a href="../weddings"> Weddings</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="http://www.eventswithamorestore.com">Event Accessories</a></li>
             </ul>
             </span>
             <span class="visible-tablet">
@@ -126,6 +141,8 @@
               <li><a href="../corporate"> Corporate Events</a></li>
               <li class="divider-vertical"></li>
               <li><a href="../weddings"> Weddings</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="http://www.eventswithamorestore.com">Event Accessories</a></li>
             </ul>
             </span>
             <span class="visible-phone">
@@ -143,6 +160,8 @@
               <li><a href="../corporate"> Corporate Events</a></li>
               <li class="divider-vertical"></li>
               <li><a href="../weddings"> Weddings</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="http://www.eventswithamorestore.com">Event Accessories</a></li>
             </ul>
             </span>
         </div>
@@ -226,7 +245,7 @@
             <h2 class="about-header">Contacting<br /> Events with Amore</h2><br />
                 <!--<p>Feel free to use the form on the left, give us a call, or talk to us at any of our events! We would love to chat!</p>-->
                 <ul class="contact-ul">
-                	<li>Fill out the From</li>
+                	<li>Fill out the Form</li>
                     <li>Give us a call</li>
                     <li>Send us an e-mail</li>
                     <li>Message us on Facebook</li>
@@ -242,8 +261,9 @@
 
 
   <footer class="footer">
-   <p>&copy; 2012 Events With Amore - <a class="footer-link" href="http://www.erfmarketing.com">ERF</a></p>
+   
    <p>Phone: (864)434-9006 - Email: <a class="footer-link" href="mailto:info@eventswithamore.com">info@eventswithamore.com</a></p>
+   <p>&copy; 2012 Events With Amore - <a class="footer-link" href="http://www.erfmarketing.com">ERF</a></p>
   </footer>
 
     </div> <!-- /container -->

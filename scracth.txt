@@ -1,0 +1,14 @@
+<div class="row-fluid">
+      <div class="span6 content-box" id="corporate-content">
+     	<h1 class="about-header">Birthdays</h1><br />
+     	<h2 class="about-header">All kids love them.</h2><img class="content-image pull-right" id="event-image" src="../img/birthday-bottom2.jpg">
+  		<br />
+  		<p>But no matter what the age, everyone deserves a birthday that’s memorable and fun. For a birthday party with more “wow” and less worry, call Events with Amore. We’ll take care of venue, food, entertainment, decorations and more. All you have to do is sing “Happy Birthday” – and maybe shout “Surprise!” and you can still get your wish for a perfect party.</p>
+      </div>
+      <div class="span6 content-box" id="corporate-content">
+     	<h1 class="about-header">Graduations</h1><br />
+        <h2 class="about-header">They’ve worked hard to get to this point in life, and you couldn’t be prouder.</h2><img class="content-image pull-right" id="event-image" src="../img/graduation-bottom2.jpg">
+   		<br />
+  		<p>To show them that it was all worthwhile, let Events with Amore help you throw the perfect graduation party. Long after the pomp and circumstance are forgotten, they’ll still remember the family, friends, food and fun. Who knows, maybe they’ll even decide to stay in school four more years so they can do it all again!</p><br />
+      </div>
+	</div>

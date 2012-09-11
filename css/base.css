@@ -3,12 +3,16 @@
 @import url(http://fonts.googleapis.com/css?family=Cagliostro);
 
 body {
-	/*background-image:url(../img/background.png);
-	background-repeat:repeat-x;	*/
-	background-color:#DEDBCC;
+	background-image:url("../img/background.png");
+	
+	background-repeat:repeat;	
+	/*background-color:#DEDBCC;*/
+	/*background-color:rgba(253, 211, 105, 255);*/
 	font-family: 'Cagliostro', sans-serif;
 	font-size:12px;
 	text-align:justify;
+	padding-left:1em;
+	padding-right:1em;
 }
 #logo {
 	padding-top:.5em;	
@@ -18,6 +22,8 @@ ul.nav {
 }
 .fb {
 	background:none;
+	max-height:100px;
+	overflow:hidden;
 }
 #front-page-content-row {
 	color:#FFFFFF;
@@ -33,6 +39,9 @@ ul.nav {
 	padding:.5em;
 
 }
+.pruple-small {
+	color:#550044;
+}
 .image-menu {
 	border-radius:5px;
 	border:thick solid #550044;
@@ -41,16 +50,16 @@ ul.nav {
 	text-align:center;
 }
 .footer-link {
-	color:#FFFFFF;
+	color:#000000;
 	font-family:Verdana, Geneva, sans-serif;
 }
 .footer-link:hover {
 	text-decoration:none;
 	font-weight:500;
-	color:#FFFFFF;
+	color:#000000;
 }
 .footer-link:visited {
-	color:#FFFFFF;
+	color:#000000;
 }
 /*about page */
 .about-link {
@@ -165,6 +174,7 @@ ul.nav {
 	text-align:center;
 	padding:.5em;
 	color:#550044;
+	background-color:#CDC9E8;
 }
 .contact-form {
 	font-size:1.3em;
@@ -173,6 +183,7 @@ ul.nav {
 	border:thick solid #550044;
 	margin-bottom:1em;
 	padding-right:1em;
+	background-color:#CDC9E8;
 
 }
 .control-group {
@@ -197,4 +208,7 @@ ul.nav {
 }
 input[type=text] { width: 100%; box-sizing: border-box; height: 28px; }
 textarea[type=text] { width: 80%; box-sizing: border-box; height: 56px; }
-
+.fblike {
+	margin-right:2em;
+	margin-left:2em;
+}
